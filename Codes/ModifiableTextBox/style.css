@@ -1,0 +1,25 @@
+#text_box_1
+{
+}
+
+#resize_button
+{
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;	
+	
+	height: 10px;
+	position:absolute;	
+	width: 10px;
+	
+}
+
+.text_box
+{
+	position: absolute;
+}
+
+.text_box_border
+{
+	position: absolute;
+}
