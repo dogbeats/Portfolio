@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
+	</head>
+	
+	<body onload="updateElementScale(1)">	
+		<div id="loading"></div>
+		
+		<div id="containerP">
+			<div id="cider">
+				<img id="sliderDongle" src="images/sliderdongle.png">
+			</div>
+		</div>
+		
+		<img id="sliderBar" src="images/sliderbar.png">
+		
+		<div id="containerX">	
+			<div id="percentage">
+				<div id="percentage_buffered" style="color: #FFF; font-size:19px; font-family:Arial;"></div>
+			</div>
+			
+			<!-- <button id="fullScreen" type="button"></button> -->
+		
+			<button id="homeButton" type="button"><br><br><br><div id="homeText">Main Menu</div></button>
+		
+			<div id="optionmenu">
+				<button id="practiceButton" type="button"><br><br><br><div id="practiceText">Practice Clips</div></button> <br><br>
+				<button id="testButton" type="button"><br><br><br><div id="testText">Mock Test</div></button>
+			</div>	
+		
+			<div id="divVideo">
+				<video id="video" controls autobuffer poster="images/logo.png" preload="auto" onloadedmetadata="buffered_loaded(event);"> 
+					<source src="video/video1.mp4" type="video/mp4">Please update your browser to view this media. 
+				</video>
+			</div>
+			
+			<div id="page1">
+				<button id="cgiBtn1"  class="playButton">CGI Clip 1</button>
+					<br />
+				<button id="cgiBtn2"  class="playButton">CGI Clip 2</button>
+					<br />
+				<button id="cgiBtn3"  class="playButton">CGI Clip 3</button>
+					<br />
+				<button id="cgiBtn4"  class="playButton">CGI Clip 4</button>
+					<br />
+				<button id="cgiBtn5"  class="playButton">CGI Clip 5</button>
+					<br />
+				<button id="cgiBtn6"  class="playButton">CGI Clip 6</button>
+					<br />
+				<button id="cgiBtn7"  class="playButton">CGI Clip 7</button>
+					<br />
+				<button id="cgiBtn8"  class="playButton">CGI Clip 8</button>
+					<br />
+				<button id="cgiBtn9"  class="playButton">CGI Clip 9</button>
+					<br />
+				<button id="cgiBtn10" class="playButton">CGI Clip 10</button>
+					<br />
+			</div>
+			
+			<div id="page2">
+				<button id="playBtn1"  class="playButton">Practice Clip 1</button>
+					<br />
+				<button id="playBtn2"  class="playButton">Practice Clip 2</button>
+					<br />
+				<button id="playBtn3"  class="playButton">Practice Clip 3</button>
+					<br />
+				<button id="playBtn4"  class="playButton">Practice Clip 4</button>
+					<br />
+				<button id="playBtn5"  class="playButton">Practice Clip 5</button>
+					<br />
+				<button id="playBtn6"  class="playButton">Practice Clip 6</button>
+					<br />
+				<button id="playBtn7"  class="playButton">Practice Clip 7</button>
+					<br />
+				<button id="playBtn8"  class="playButton">Practice Clip 8</button>
+					<br />
+				<button id="playBtn9"  class="playButton">Practice Clip 9</button>
+					<br />
+				<button id="playBtn10" class="playButton">Practice Clip 10</button>
+					<br />
+			</div>
+			
+			<div id="page3">
+				<button id="playBtn11"  class="playButton">Practice Clip 11</button>
+					<br />
+				<button id="playBtn12"  class="playButton">Practice Clip 12</button>
+					<br />
+				<button id="playBtn13"  class="playButton">Practice Clip 13</button>
+					<br />
+				<button id="playBtn14"  class="playButton">Practice Clip 14</button>
+					<br />
+				<button id="playBtn15"  class="playButton">Practice Clip 15</button>
+					<br />
+				<button id="playBtn16"  class="playButton">Practice Clip 16</button>
+					<br />
+			</div>
+			
+			<div id="changepagebuttons">
+				<button id="changePage1" class="changePage" type="button">1</button>
+				<button id="changePage2" class="changePage" type="button">2</button>
+				<button id="changePage3" class="changePage" type="button">3</button>
+					<br />
+			</div>
+			
+			<div id="individualResult">
+				<p style="font-size:22px; font-family:Arial;">You scored</p>
+				<p style="font-size:38px; font-family:Arial;">' + score + ' out of 5</p>
+				<p style="font-size:19px; font-family:Arial;"> The review clip that shows you where the hazard was will start shortly. </p>
+					<br />
+					<br />
+					<br />
+					<br />
+				<p style="font-size:19px; font-family:Arial;">Want tips to improve? See our help section below...</p>
+			</div>
+			
+			<div id="flag"></div>
+			
+			<canvas id="canvasBg" width="645px" height="412px" ></canvas>	
+			
+			<div id="temp">
+				<div id="total2"></div>
+				<div id="total3"></div>
+				<div id="total4"></div>
+				<div id="total5"></div>
+				<div id="total6"></div>
+				<div id="total7"></div>
+				<div id="total8"></div>
+				<div id="total9"></div>
+				<div id="clicks"></div>
+			</div>
+			
+			<img id="testscale" src="images/resultsbg.png">	
+			<script src="hpt_re.js"></script>
+		</div>
+	</body>
+</html>

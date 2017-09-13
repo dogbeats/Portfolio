@@ -1,0 +1,1 @@
+<!DOCTYPE html><head><link rel='stylesheet' type='text/css' href='style.css' /></head><body><span style='font-size:16pt;'>This is the <span class='bold'>home page</span> for a site</span></body></html>

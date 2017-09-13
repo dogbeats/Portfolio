@@ -1,0 +1,82 @@
+body
+{
+	image-rendering: pixelated;
+	overflow: hidden;
+}
+
+#buttons
+{
+	z-index: 100;
+}
+
+#scene1
+{
+	position:absolute;
+	background-color: red;
+	background: url(images/testimages/scene1transparent.gif);
+	filter: opacity(100%);
+	height: 265px;
+	width: 1272px;
+	top: 222px;
+}
+
+#scene1img
+{
+
+}
+
+#sun
+{
+	position:absolute;
+	top: 500px;
+	left: 500px;
+	height: 10px;
+	width: 10px;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	overflow-y: hidden;
+}
+
+#moon
+{
+	position:absolute;
+	filter: blur(50px);
+	-webkit-filter: blur(50px);
+}
+
+#centre
+{
+	position:absolute;
+	top: 200px;
+	left: 200px;
+	height: 10px;
+	width: 10px;
+	filter: blur(0px);
+	-webkit-filter: blur(50px);
+	overflow-y: hidden;
+}
+
+#light
+{
+	position:absolute;
+	top: 360px;
+	left: 860px;
+	height: 10px;
+	width: 50px;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	overflow-y: hidden;
+}
+
+#light2
+{
+	position:absolute;
+	top: 560px;
+	left: -1000px;
+	height: 100px;
+	width: 3000px;
+	filter: blur(20px);
+	-webkit-filter: blur(20px);
+	overflow-y: hidden;
+}
+

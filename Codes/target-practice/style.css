@@ -1,0 +1,28 @@
+body
+{
+	image-rendering: pixelated;
+}
+
+#revolver
+{
+	background-image: url("images/revolver-idle.png");
+	height: 600px;
+	width: 600px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	image-rendering: pixelated;
+}
+
+#revolverIMG
+{
+	height: 600px;
+	width: 600px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	image-rendering: pixelated;
+}
+
+#target1
+{
+	position: absolute;
+}

@@ -1,0 +1,179 @@
+body
+{
+	font-family: "Lucida Console", Monaco, monospace;
+	/*background-color: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));*/
+	
+	
+	
+	background-image: url(Images/footer3.png), linear-gradient(rgba(255, 255, 179, 0.0), rgba(255, 255, 179, 0.0));
+	background-repeat: repeat-x;
+	background-position: 200px 785px;
+	background-size: 2px 396px;
+	
+}
+
+@keyframes menuflashing {
+    0% {background-color: #A54ACA; border: 6px solid #A54ACA;}
+    50% {background-color: #C873EB; border: 6px solid #C873EB; box-shadow: 0px 0px 30px 1px #FF00E8;}
+	100% {background-color: #A54ACA; border: 6px solid #A54ACA;}
+}
+
+@keyframes contentflashing {
+    0% {}
+    50% {box-shadow: 0px 0px 20px 1px #FFF;}
+	100% {}
+}
+
+@keyframes shine {
+	/*0% {background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));}
+	/*100% {background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,0,0,0));}*/
+	background: -moz-linear-gradient(left, blue, white, red);
+}
+
+#top_gradient
+{
+	background: linear-gradient(#000000, #380052);
+	width: 10000px;
+	height: 1000px;
+	
+	position: absolute;
+	z-index: -100;
+}
+
+#disclaimer
+{
+	width: 500px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 8pt;
+}
+
+#disclaimer_text
+{
+	width: 700px;
+	position: relative;
+}
+
+#content_box
+{
+	width: 700px;
+	height: 700px;
+	border: 1px solid grey;
+	margin: 5px;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	
+	box-shadow: 0px 0px 20px 1px #FFF;
+}
+
+#social_media
+{
+	position: relative;
+	margin: 15px;
+	width: 711px;
+}
+
+#disclaimer_bg
+{
+	background-color: #FFFFCC;
+	width: 1px;
+	height: 2px;
+	position: absolute;
+	z-index: -1;
+}
+
+#main_file_container
+{
+	position: absolute;
+	margin: 0 auto;
+	width: 50%;
+}
+
+#links
+{
+	position: relative;
+	color: white;
+	width: 711px;
+}
+
+#home_button
+{
+}
+
+#banner
+{
+	position: relative;
+	left: 30px;
+}
+
+#disclaimer_top_border
+{
+	position:absolute;
+	height: 1px;
+	width: 1000px;
+	background-color: #000000;
+	left: 0px;
+}
+
+/*
+#test_blur
+{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 200px;
+	height: 700px;
+	
+	filter: blur(20px);
+}
+*/
+
+.main_links
+{
+	background-color: #8217AE;
+	display: inline;
+	border: 6px solid #8217AE;
+	border-radius: 5px;
+	
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	line-height: 10px;
+	position: relative;
+	
+	animation-name: menuflashing;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+	
+	
+	/*background: red; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(left, red, white, red); /*Safari 5.1-6*/
+	/*background: -o-linear-gradient(left, red, white, red); /*Opera 11.1-12*/
+	/*background: -moz-linear-gradient(left, red, white, red); /*Fx 3.6-15*/
+	/*background: linear-gradient(to right, red, white, red); /*Standard*/
+	
+	/*animation-name: shine;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;*/
+	
+	
+	
+}
+
+.social_media_images
+{
+	height: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 60%;
+	border: 2px solid white;
+}
+
+blockquote.twitter-timeline
+{
+	max-width: 100px;
+	max-height: 10px;
+	overflow: scroll;
+}
+

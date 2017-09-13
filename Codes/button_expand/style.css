@@ -1,0 +1,57 @@
+#button
+{
+	position: absolute;
+	height: 100px;
+	top: 500px;
+}
+
+#button_container
+{
+	position:absolute;
+	height: 100px;
+	width: 600px;
+	
+	top: 50px;
+}
+
+#button_div1
+{
+	height: 50px;
+	width: 200px;
+	background-image: url("button_test.png");
+	
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+#button_div2
+{
+	position: absolute;
+	height: 50px;
+	width: 200px;
+	left: 200px;
+	top: 0px;
+	background-image: url("button_test.png");
+	
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+
+#button_div3
+{
+	position: absolute;
+	height: 50px;
+	width: 200px;
+	left: 400px;
+	top: 0px;
+	background-image: url("button_test.png");
+	
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+

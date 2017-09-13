@@ -1,0 +1,37 @@
+.bold
+{
+	font-weight:bold;
+}
+
+.italic
+{
+	font-style:italic;
+}
+
+.underline
+{
+	text-decoration:underline;
+}
+
+.centre
+{
+	text-align: center;
+	display: inline-block;
+	width: 500px;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.style1
+{
+	color: red;
+	border: 1px dashed;
+}

@@ -1,0 +1,246 @@
+body
+{
+	background-color: #1A1A1A;
+	background-image: url(Images/Site/background-1.png);
+}
+
+#buttoncontainer
+{
+	height: 500px;
+	width: 300px;
+	position: absolute;
+	top: 300px;
+}
+
+.buttons
+{
+	height: 100px;
+	width: 300px;
+	
+	text-align: center;
+	float: center;
+	line-height: 100px;
+	vertical-align: middle;
+
+	/*background: url(buttontest2-noshine.png);*/
+	/*background-size: 1%;*/
+	//background-color: #131412;
+	outline: 1px solid transparent;	
+	
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	
+	font-family: Courier, monospace;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 10px;	
+}
+
+#banner
+{
+	position:absolute;
+	top: -169px;
+	left: 40px;
+	outline: 1px solid transparent;	
+}
+
+#button1
+{
+	border-top: 1px solid black;
+}
+
+#button4
+{
+	border-bottom: 1px solid black;
+}
+
+#disclaimer
+{
+	font-family: Courier, monospace;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 10px;
+	opacity: 0.3;
+	
+	position: fixed;
+    bottom: 0;
+	right: 0;
+}
+
+#mobile
+{
+	font-family: Courier, monospace;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 10px;
+	position: fixed;
+}
+
+#content
+{
+	position: absolute;
+	height: 10px;
+	width: 1000px;
+	z-index: -1;
+	left: 500px;
+	
+	opacity: 0;
+	
+	border-bottom: 50px;	
+}
+
+#testlink
+{
+	background-color:green;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#testlink:hover
+{
+	background-color:blue;
+	left: 100px;
+}
+
+#mobile:hover #testlink
+{
+	left: 100px;
+}
+
+#lightmodes, #dark, #light, #classic, #cookies
+{
+	display: inline;
+	font-family: Courier, monospace;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 4px;	
+}
+
+#cookies
+{
+	position: absolute;
+	z-index: 5;
+}
+
+#cookies-confirm
+{
+	position: relative;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	left: 130px;
+}
+
+#dbgtz
+{
+	position: absolute;
+	left: 11px;
+}
+
+#page1number
+{
+	position: absolute;
+}
+
+#page2number
+{
+	position: absolute;
+}
+
+#page3number
+{
+	position: absolute;
+}
+
+#page4number
+{
+	position: absolute;
+}
+
+#page5number
+{
+	position: absolute;
+}
+
+#page6number
+{
+	position: absolute;
+}
+
+#page7number
+{
+	position: absolute;
+}
+
+#page8number
+{
+	position: absolute;
+}
+
+#page9number
+{
+	position: absolute;
+}
+
+#page10number
+{
+	position: absolute;
+}
+
+#page11number
+{
+	position: absolute;
+}
+
+#page12number
+{
+	position: absolute;
+}
+
+#page13number
+{
+	position: absolute;
+}
+
+#page14number
+{
+	position: absolute;
+}
+
+#page15number
+{
+	position: absolute;
+}
+
+#pageNumbers
+{
+	position: absolute;
+}
+
+#pageleft
+{
+	position: absolute;
+}
+
+#pageright
+{
+	position: absolute;
+	left: 1000px;
+}
+
+#pages
+{
+	position: absolute;
+}
+
+#sun {
+	position: fixed;
+	top: -0px;
+	left: -0px;
+	z-index: -1;
+}
+
+
+
+

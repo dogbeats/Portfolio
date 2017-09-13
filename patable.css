@@ -1,0 +1,187 @@
+body
+{
+	//background-image: url(buttonimagetest3.png);
+}
+
+table, th, td
+{
+	border-collapse: collapse;
+}
+
+table
+{
+	border-top: 1px solid black;
+	width: 800px;
+}
+
+a
+{
+	font-family: Courier, monospace;
+	font-size: 12px;
+	color: white;
+}
+
+#left
+{
+	width: 500px;
+	font-family: Courier, monospace;
+	font-size: 12px;
+}
+
+#left-about
+{
+	width: 800px;
+	font-family: Courier, monospace;
+	font-size: 12px;
+}
+
+
+#right
+{
+	width: 300px;
+	
+	font-family: Courier, monospace;
+	font-size: 12px;
+	//color: white;
+}
+
+.portfolioImagesDiv
+{
+	width: 500px;
+	overflow: hidden;
+	border: 5px solid transparent;
+}
+
+.portfolioImages
+{
+	float: right;
+}
+
+.row0
+{
+	//background-color: #131412;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.row1
+{
+	//background-color: #181917;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.choicebuttons
+{
+	//background-color: #131412;
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#table2
+{
+	position: absolute;
+	top: 200px;
+}
+
+#filtermenubutton
+{
+	background-color: red;
+	width: 80px;
+	text-align: center;
+}
+
+#filtermenuoptions
+{
+	position:absolute;
+	
+	top: 20px;
+	left: -14px;
+	z-index: -1;
+	
+}
+
+#optioncontainer
+{
+	position: absolute;
+	width: 200px;
+	left: 750px;
+	top: 140px;
+}
+
+#sorts
+{
+	position: absolute;
+	top: 0px;
+	left: -5000px;
+}
+
+#pages
+{
+	position:absolute;
+	top: 10px;
+	
+	font-size: 16px;
+}
+
+#pages2
+{
+	display:inline;
+}	
+
+#sortmenuoptions:hover #sorts
+{
+	left: 55px;
+	top: 5px;
+}
+
+#filters
+{
+	position: absolute;
+	top: 0px;
+	left: -5000px;
+	width: 200px;
+}
+
+#filtermenuoptions:hover #filters
+{
+	left: 69px;
+	top: 5px;
+}
+
+#filtermenuoptions:hover #filterother
+{
+	opacity: 0;
+}
+/*
+#sort1:hover, #sort2:hover, #sort3:hover, #sort4:hover, #sort5:hover, #sort6:hover, #option1:hover, #option2:hover, #option3:hover, #option0:hover
+{
+	background-color: #181917;
+}
+*/
+
+#changePage2
+{
+	background-color: red;
+}	
+
+#emptyrow
+{
+	border-top: 1px solid black ;
+}
+
+#table-row-about
+{
+	position: absolute;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+
+
+
+

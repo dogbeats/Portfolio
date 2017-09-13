@@ -1,0 +1,302 @@
+body
+{
+	text-align:center;
+}
+
+button 
+{
+	height: 24px;
+	background-image:url(images/buttonbackground3.png);
+	border: 0px;
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 9pt;
+}
+
+button:active{
+	background-image:url(images/buttonbackground7.png);
+}
+
+#containerX
+{
+	position: relative;
+	text-align: center;
+	width: 800px;
+	top: 50px;
+	left: auto;
+	margin: 0px auto;
+}
+
+#containerP
+{
+	position: absolute;
+	text-align: center;
+	width: 800px;
+	top: 50px;
+	left: 0px;
+	margin: 0px auto;
+}
+
+#canvasBg
+{
+	top: -110px;
+	position:absolute;	
+	display:block; 
+	background:#69A8DC;
+	margin:100px auto 0px;
+	z-index: -1;
+	background: url(images/canvasbg1.png);
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#video
+{
+	background-color: #000;
+	position: absolute;
+	left: 156px;
+	top: 0px;	
+	color: white;
+	text-align:center;
+	z-index: 1;
+}
+
+#p
+{
+	top: 500px;
+	position: absolute;
+}
+
+#individualResult
+{
+	z-index: 11;
+	position: absolute;
+	left: -50000px;
+	width: 480px;
+	height: 360px;
+	background-color: #000;
+	text-align: center;
+	color: #FFF;
+}
+
+#changepagebuttons
+{
+	position: absolute;
+	left: -50000px;
+	top: 110px;
+}
+
+#changePage2
+{
+	position:absolute;
+	left:40px;
+}
+
+#changePage3
+{
+	position:absolute;
+	left:80px;
+}
+
+#page1
+{
+	position: absolute;
+	left:-1000px;
+}
+
+#page2
+{
+	position: absolute;
+	left: -1000px;
+}
+
+#page3
+{
+	position: absolute;
+	left: -1000px;
+}
+
+#practiceButton
+{
+	width: 69px;
+	height: 100px;
+	background-image:url(images/practice60perc.gif);	
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position: center top; 
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#practiceText
+{
+	position:absolute;
+	width: 140px;
+	left: -34px;
+	top:75px;
+}
+
+#testButton
+{
+	width: 69px;
+	height: 100px;
+	background-image:url(images/mocktest60perc.gif);	
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position: center top; 
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#testText
+{
+	position:absolute;
+	width: 140px;
+	left: -34px;
+	top:188px;
+}
+
+#homeButton
+{
+	position:absolute;
+	left: 29px;
+	top: 10px;
+	
+	width: 100px;
+	height: 93px; /* 77*/
+	background-image:url(images/home60perc.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center top;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Arial;
+	vertical-align: text-top;
+}
+
+#homeText
+{
+	position:absolute;
+	width: 100px;
+	left: 0px;
+	top:75px;
+}
+
+#temp
+{
+	position:absolute;
+	top:500px;
+}
+
+#page1
+{
+	position: absolute;
+	left: -5000px;
+	top: 134px;
+}
+
+#page2
+{
+	position: absolute;
+	left: -5000px;
+	top: 134px;
+}
+
+#page3
+{
+	position: absolute;
+	left: -5000px;
+	top: 134px;
+}
+
+#optionmenu
+{
+	position: absolute;
+	left: 44px;
+	top: 123px;
+}
+
+#flag
+{
+	position: absolute;
+	top: 365px;
+	left: 180px;
+	color: #FFF;
+	font-size: 14pt;
+	padding: 2px;
+}
+
+#percentage
+{
+	z-index: 3;
+	position: absolute;
+	left: -1000px;
+	top: 200px;
+}
+
+#percentage_buffered
+{
+	z-index: 3;
+}
+
+#fullScreen
+{
+	background-image:url();
+	width: 0px;
+	height: 0px;
+	z-index: 3;
+	position: absolute;
+	top: -13328px;
+	left: -13603px;
+}
+
+#sliderDongle
+{
+	position:absolute;
+	top: -50px;
+	left: 62px;
+}
+
+#sliderBar
+{
+	position:absolute;
+	top: -42px;
+	left: 60px;
+}
+
+#testscale
+{
+	position:absolute;
+	z-index: 10;
+	left: -50000px;
+}
+
+#cider
+{
+}
+
+#sliderDongle
+{
+	z-index: 10;
+	top: -40px;
+}
+
+#sliderBar
+{
+	top: 20px;
+	z-index: 2;
+	margin: 0px auto;
+}
+
+.changePage
+{
+	width: 40px;
+	margin: 0px;
+}
+
+.playButton
+{
+	width: 120px;
+}

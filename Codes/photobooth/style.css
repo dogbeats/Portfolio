@@ -1,0 +1,25 @@
+body
+{
+	font-family: Verdana, sans-serif;
+}
+
+#main_container
+{
+	text-align: center;
+}
+
+.dropdown_menu
+{
+	position: absolute;
+	list-style-type: none;
+	left: -1000px;
+}
+
+#previewbox
+{
+	width: 500px;
+	height: 700px;
+	overflow: scroll;
+	border: 1px solid;
+	position: relative;
+}
